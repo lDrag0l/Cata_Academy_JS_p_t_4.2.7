@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.App-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    padding: 70px;
+    min-height: 400px;
+    background-color: #C4C4C4;
+}
+
+.App__input {
+    background-color: white;
+    padding-left: 12px;
+    width: 500px;
+    height: 61px;
+    font-size: 48px;
+    border: none;
+    border-radius: 0;
+}
+
+.App__search-result {
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #E3E3E3;
+    border: 2px solid black;
+    padding-left: 10px;
+    width: 500px;
+    height: 44px;
+}
+
+.App__search-result:hover {
+    background-color: #65CDF9;
+}
+
+.link-wrapper {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.link-wrapper__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 16px;
+    background-color: #E27BEB;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+}
+
+.link-wrapper__button-remove {
+    width: 40px;
+    height: 40px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../Images/RemoveButton.png');
+}
